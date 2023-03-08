@@ -8,13 +8,9 @@ b2 = list(map(int,input().split()))
 
 count = 0
 
-for i in b2:
-    a2.append(i)
+list2 = a2+b2
+list3 = list(set(list2))
 
-a2.sort()
-
-for i in range(1,len(a2)):
-    if a2[i] == a2[i-1]:
-        count += 1
+count = len(list2) - len(list3)
 
 print((a1-count)+(b1-count))
