@@ -1,10 +1,10 @@
 # [level 1] 가장 많이 받은 선물 - 258712 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/258712) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/258712?language=python3) 
 
 ### 성능 요약
 
-메모리: 10.6 MB, 시간: 6.61 ms
+메모리: 10.3 MB, 시간: 4.96 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 1일 16:59:47
+2024년 1월 1일 17:1:32
 
 ### 문제 설명
 
