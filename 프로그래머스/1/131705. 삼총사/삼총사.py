@@ -1,9 +1,6 @@
 def solution(number):
     answer = 0
-    dic1 = {}
     number.sort()
-    for i in number:
-        dic1[i] = 1
     for i in range(len(number)):
         if number[i] > 0: break
         for j in range(i+1,len(number)):
