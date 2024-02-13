@@ -17,7 +17,7 @@ def solution(board):
                         visited[x+q][y+w].append(visited[x][y][s] + m)
                         arr1.append([x+q,y+w,e,len(visited[x+q][y+w])-1])
                     else:
-                        if min(visited[x+q][y+w]) >= visited[x][y][s] + m - 3:
+                        if min(visited[x+q][y+w]) >= visited[x][y][s] + m - 4:
                             visited[x+q][y+w].append(visited[x][y][s] + m)
                             arr1.append([x+q,y+w,e,len(visited[x+q][y+w])-1])
     BFS(0,0)
