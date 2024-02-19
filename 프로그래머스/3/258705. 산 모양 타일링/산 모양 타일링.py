@@ -18,7 +18,7 @@ def solution(n, tops):
                 arr1[1] += arr1[0]
             arr1[1] += 2
     for i in range(2,n):
-        arr1.append((arr1[i-1]*2) + (arr1[i-1]-arr1[i-2]))
+        arr1.append(((arr1[i-1]*2) + (arr1[i-1]-arr1[i-2]))%10007)
         if tops[i]:
             arr1[i] += arr1[i-1]
     return arr1[-1]%10007
